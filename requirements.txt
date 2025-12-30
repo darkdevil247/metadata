@@ -1,0 +1,17 @@
+# Core Dependencies
+Pillow>=10.0.0
+piexif>=1.1.3
+mutagen>=1.46.0
+ffmpeg-python>=0.2.0
+# Optional (for enhanced features)
+numpy>=1.24.0
+opencv-python>=4.8.0
+pydub>=0.25.1
+moviepy>=1.0.3
+rich>=13.0.0
+colorama>=0.4.6
+tqdm>=4.65.0
+# Development/Utility
+pathlib2>=2.3.7
+psutil>=5.9.0
+humanize>=4.6.0
