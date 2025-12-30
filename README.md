@@ -36,3 +36,16 @@ pip install Pillow piexif mutagen ffmpeg-python
 
 # Verify installation
 python -c "import PIL; import piexif; import mutagen; print('All dependencies installed successfully!')"
+
+INSTALLATION & RUNNING:
+bash
+# Install dependencies
+pip install Pillow piexif mutagen
+
+# Install FFmpeg (for video processing)
+sudo apt install ffmpeg  # Ubuntu/Debian
+# or
+brew install ffmpeg      # macOS
+
+# Run the script
+python main.py
